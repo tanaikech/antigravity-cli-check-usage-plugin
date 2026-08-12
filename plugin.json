@@ -1,0 +1,7 @@
+{
+  "name": "antigravity-cli-check-usage-plugin",
+  "version": "1.0.0",
+  "description": "Zero-overhead Antigravity CLI Agent Hook plugin for real-time model quota monitoring & low-quota threshold warnings.",
+  "author": "Kanshi Tanaike",
+  "license": "MIT"
+}

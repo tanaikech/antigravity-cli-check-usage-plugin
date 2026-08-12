@@ -1,0 +1,19 @@
+{
+  "check-quota-warning": {
+    "enabled": true,
+    "PreInvocation": [
+      {
+        "type": "command",
+        "command": "bash hooks/entrypoint.sh",
+        "timeout": 5
+      }
+    ],
+    "PostInvocation": [
+      {
+        "type": "command",
+        "command": "bash hooks/entrypoint.sh",
+        "timeout": 5
+      }
+    ]
+  }
+}
